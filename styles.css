@@ -1,0 +1,29 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* # PRIMARY # */
+  /* intro and email sign up background */
+  --navy-850: hsl(217, 28%, 15%);
+  /* main background */
+  --navy-900: hsl(218, 28%, 13%);
+  /* footer background */
+  --navy-950: hsl(216, 53%, 9%);
+  /* testimonials background */
+  --navy-800: hsl(219, 30%, 18%);
+
+  /* # ACCENT # */
+  /* inside cta gradinet */
+  --teal-200: hsl(176, 68%, 64%);
+  --cyan-500: hsl(198, 60%, 50%);
+  /* error */
+  --red-500: hsl(0, 100%, 63%);
+
+  /* # NEUTRAL # */
+  --white: hsl(0, 0%, 100%);
+
+  /* headings, ctas, header navigation */
+  /* font-family Raleway */
+
+  /* body */
+  /* font-family Open Sans */
+}
