@@ -23,7 +23,13 @@
 
   /* headings, ctas, header navigation */
   /* font-family Raleway */
+  --ff-raleway: "Raleway", sans-serif;
 
   /* body */
   /* font-family Open Sans */
+  --ff-open-sans: "Open Sans", sans-serif;
+
+  /* font-weights */
+  --fw-400: 400;
+  --fw-700: 700;
 }
