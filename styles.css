@@ -74,7 +74,7 @@ a {
 
 .btn {
   background: linear-gradient(to right, var(--teal-200), var(--cyan-500));
-  padding: 0.4rem 0.8rem;
+  padding: 0.9rem 1rem;
   color: var(--white);
   font-weight: var(--fw-700);
   border-radius: 200px;
@@ -87,6 +87,10 @@ body {
   font-family: var(--ff-open-sans);
   font-weight: var(--fw-400);
   color: var(--white);
+}
+
+main {
+  background-color: var(--navy-900);
 }
 
 /* ### HEADER ### */
@@ -114,4 +118,28 @@ nav ul {
 
 nav a {
   text-decoration: none;
+}
+
+/* ### INTRO SECTION ### */
+
+.intro-section {
+  background-color: var(--navy-850);
+  text-align: center;
+  padding: 2rem 2.6rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.intro-section h1 {
+  font-size: 2rem;
+}
+
+.intro-section p {
+  font-size: 1.235rem;
+}
+
+.intro-section a {
+  justify-self: center;
+  width: 70%;
+  font-size: 1.235rem;
 }
