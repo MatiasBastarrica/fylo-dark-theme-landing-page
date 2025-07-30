@@ -74,7 +74,7 @@ a {
 
 .btn {
   background: linear-gradient(to right, var(--teal-200), var(--cyan-500));
-  padding: 0.9rem 1rem;
+  padding: 0.8em 1em;
   color: var(--white);
   font-weight: var(--fw-700);
   border-radius: 200px;
@@ -106,14 +106,15 @@ header {
 }
 
 header .logo {
-  width: 140px;
+  width: 100px;
 }
 
 nav ul {
   list-style: none;
   padding-inline-start: 0;
   display: flex;
-  gap: 2rem;
+  gap: 1.325rem;
+  font-size: 0.9rem;
 }
 
 nav a {
@@ -128,18 +129,54 @@ nav a {
   padding: 2rem 2.6rem;
   display: grid;
   gap: 2rem;
+  background-image: url(./images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+}
+
+.illustration-intro-img {
+  margin-inline: auto;
 }
 
 .intro-section h1 {
-  font-size: 2rem;
+  font-size: 1.385rem;
 }
 
 .intro-section p {
-  font-size: 1.235rem;
+  font-size: 0.925rem;
 }
 
 .intro-section a {
   justify-self: center;
-  width: 70%;
-  font-size: 1.235rem;
+  width: 90%;
+  font-size: 1 rem;
+}
+
+/* ### FEATURES SECTION ### */
+
+.features-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem 2.6rem;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature .feature__img {
+  margin-inline: auto;
+  width: 60px;
+}
+
+.feature h2 {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.feature p {
+  font-size: 0.975rem;
+  margin-top: 0.6rem;
 }
