@@ -66,6 +66,10 @@ select {
   font: inherit;
 }
 
+a {
+  color: inherit;
+}
+
 /* ### UTILITY CLASSES ### */
 
 .btn {
@@ -74,5 +78,40 @@ select {
   color: var(--white);
   font-weight: var(--fw-700);
   border-radius: 200px;
+  text-decoration: none;
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-open-sans);
+  font-weight: var(--fw-400);
+  color: var(--white);
+}
+
+/* ### HEADER ### */
+
+header {
+  background-color: var(--navy-850);
+  font-family: var(--ff-raleway);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 140px;
+}
+
+nav ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
   text-decoration: none;
 }
