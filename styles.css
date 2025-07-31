@@ -197,6 +197,8 @@ nav a {
 .feature p {
   font-size: 0.9rem;
   margin-top: 0.6rem;
+  max-width: 50ch;
+  margin-inline: auto;
 }
 
 /* ### STAY PRODUCTIVE SECTION  ### */
@@ -269,12 +271,21 @@ nav a {
 }
 
 .testimonial {
+  max-width: 385px;
   background-color: var(--navy-800);
   padding: 2rem 1.5rem 1.5rem;
   font-size: 0.8rem;
   line-height: 1.8;
   border-radius: 0.4rem;
   z-index: 3;
+}
+
+.testimonial:nth-child(2) {
+  align-self: center;
+}
+
+.testimonial:nth-child(3) {
+  align-self: flex-end;
 }
 
 .testimonial-info {
@@ -537,26 +548,6 @@ footer a:hover {
     font-size: 1.125rem;
   }
 
-  /* ## TESTIMONIALS ## */
-
-  .testimonials-container {
-    flex-direction: row;
-    justify-content: center;
-    max-width: 90%;
-    margin-inline: auto;
-  }
-
-  .testimonials-container::before {
-    width: 45px;
-    height: 35px;
-    left: -6px;
-    top: -28px;
-  }
-
-  .testimonial {
-    font-size: 0.985rem;
-  }
-
   /* ## CTA ## */
   .cta {
     max-width: 60%;
@@ -632,5 +623,30 @@ footer a:hover {
 
   .error-message {
     padding-inline-start: 2.5rem;
+  }
+}
+
+@media (min-width: 60.75em) {
+}
+
+@media (min-width: 66.875em) {
+  /* ## TESTIMONIALS ## */
+
+  .testimonials-container {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    margin-inline: auto;
+  }
+
+  .testimonials-container::before {
+    width: 45px;
+    height: 35px;
+    left: -6px;
+    top: -28px;
+  }
+
+  .testimonial {
+    font-size: 0.985rem;
   }
 }
