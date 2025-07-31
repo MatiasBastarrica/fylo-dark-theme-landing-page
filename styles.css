@@ -86,7 +86,7 @@ a {
   color: var(--red-500);
   font-weight: var(--fw-700);
   font-size: 0.75rem;
-  padding-inline-start: 3rem;
+  padding-inline-start: 1.5rem;
   margin-top: 0.4rem;
   text-align: start;
 }
@@ -315,6 +315,7 @@ nav a {
   right: 0;
   left: 0;
   font-family: var(--ff-raleway);
+  box-shadow: 6px 6px 20px hsl(216, 71%, 8%);
 }
 
 .cta h2 {
@@ -331,6 +332,7 @@ nav a {
   border-radius: 200px;
   padding: 0.8em 2em;
   width: 100%;
+  border: none;
 }
 
 .cta form input::placeholder {
@@ -477,19 +479,20 @@ footer a:hover {
   }
 
   .intro-section h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     max-width: 35ch;
     margin-inline: auto;
   }
 
   .intro-section p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     max-width: 52ch;
     margin-inline: auto;
   }
 
   .intro-section a {
     width: 20%;
+    font-size: 1rem;
   }
 
   /* ## FEATURES SECTION ## */
@@ -516,6 +519,8 @@ footer a:hover {
     align-items: center;
     padding-inline: 3rem;
     padding-bottom: 8rem;
+    width: 95%;
+    margin-inline: auto;
   }
 
   .stay-productive__content h2 {
@@ -537,7 +542,7 @@ footer a:hover {
   .testimonials-container {
     flex-direction: row;
     justify-content: center;
-    max-width: 80%;
+    max-width: 90%;
     margin-inline: auto;
   }
 
@@ -548,9 +553,18 @@ footer a:hover {
     top: -28px;
   }
 
+  .testimonial {
+    font-size: 0.985rem;
+  }
+
   /* ## CTA ## */
   .cta {
     max-width: 60%;
+    margin-inline: auto;
+  }
+
+  .cta > p {
+    max-width: 70ch;
     margin-inline: auto;
   }
 
@@ -563,6 +577,10 @@ footer a:hover {
 
   .cta .input-container {
     width: 70%;
+  }
+
+  .cta input[type="email"]::placeholder {
+    font-size: 1rem;
   }
 
   .cta button {
@@ -581,7 +599,7 @@ footer a:hover {
   }
 
   footer address {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: minmax(25ch, 42ch) auto;
     align-items: start;
     column-gap: 4rem;
   }
@@ -610,5 +628,9 @@ footer a:hover {
   .ft-main .ft-item:nth-child(1) {
     width: 55%;
     margin-right: 3.5rem;
+  }
+
+  .error-message {
+    padding-inline-start: 2.5rem;
   }
 }
