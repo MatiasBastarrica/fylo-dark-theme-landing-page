@@ -79,6 +79,7 @@ a {
   font-weight: var(--fw-700);
   border-radius: 200px;
   text-decoration: none;
+  font-family: var(--ff-raleway);
 }
 
 /* ### GENERAL STYLING ### */
@@ -92,6 +93,7 @@ body {
 h1,
 h2 {
   font-weight: var(--fw-700);
+  font-family: var(--ff-raleway);
 }
 
 main {
@@ -301,6 +303,9 @@ nav a {
   margin-inline: 1.5rem;
   position: absolute;
   bottom: -175px;
+  right: 0;
+  left: 0;
+  font-family: var(--ff-raleway);
 }
 
 .cta h2 {
@@ -383,6 +388,7 @@ footer address {
 /* ### MEDIA QUERIES ### */
 
 @media (min-width: 46.875em) {
+  /* ## HEADER ## */
   header {
     padding: 3.5rem 3rem;
   }
@@ -393,5 +399,19 @@ footer address {
 
   header nav ul {
     gap: 3rem;
+  }
+
+  /* ## INTRO SECTION ## */
+
+  .intro-section {
+    background-image: url(./images/bg-curvy-desktop.svg);
+  }
+
+  .intro-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .illustration-intro-img {
+    width: 600px;
   }
 }
