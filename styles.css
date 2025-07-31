@@ -428,4 +428,19 @@ footer address {
   .intro-section a {
     width: 20%;
   }
+
+  /* ## FEATURES SECTION ## */
+
+  .features-section {
+    max-width: 72%;
+    margin-inline: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 8rem;
+  }
+
+  .feature {
+    flex-basis: 40%;
+  }
 }
