@@ -96,6 +96,8 @@ h2 {
 
 main {
   background-color: var(--navy-900);
+  position: relative;
+  padding-bottom: 340px;
 }
 
 /* ### HEADER ### */
@@ -297,6 +299,8 @@ nav a {
   flex-direction: column;
   gap: 1.6rem;
   margin-inline: 1.5rem;
+  position: absolute;
+  bottom: -175px;
 }
 
 .cta h2 {
@@ -327,6 +331,7 @@ nav a {
 
 footer {
   background-color: var(--navy-950);
+  padding-top: 260px;
 }
 
 footer ul a {
