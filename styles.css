@@ -330,6 +330,7 @@ nav a {
 
 .cta form button {
   border: none;
+  cursor: pointer;
 }
 
 /* ### FOOTER ### */
@@ -402,6 +403,39 @@ footer address {
 
 .social-icon svg {
   fill: var(--white);
+}
+
+/* ### ACTIVE STATES ### */
+
+nav a:hover {
+  text-decoration: underline;
+  color: var(--white);
+  font-weight: var(--fw-700);
+}
+
+.btn:hover {
+  background: rgb(124, 202, 202);
+}
+
+.stay-productive-section a:hover span.arrow {
+  background-image: url(./images/icon-arrow-white.svg);
+}
+
+.stay-productive-section a:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+footer a:hover {
+  font-weight: var(--fw-700);
+}
+
+.social-icon:hover {
+  border-color: var(--teal-200);
+}
+
+.social-icon:hover svg {
+  fill: var(--teal-200);
 }
 
 /* ### MEDIA QUERIES ### */
