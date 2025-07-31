@@ -379,3 +379,19 @@ footer address {
   width: 20px;
   padding-top: 0.3rem;
 }
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 46.875em) {
+  header {
+    padding: 3.5rem 3rem;
+  }
+
+  header .logo {
+    width: 120px;
+  }
+
+  header nav ul {
+    gap: 3rem;
+  }
+}
