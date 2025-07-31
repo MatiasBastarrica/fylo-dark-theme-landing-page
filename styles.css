@@ -443,4 +443,29 @@ footer address {
   .feature {
     flex-basis: 40%;
   }
+
+  /* ## STAY PRODUCTIVE ## */
+
+  .stay-productive-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding-inline: 3rem;
+    padding-bottom: 8rem;
+  }
+
+  .stay-productive__content h2 {
+    font-size: 2rem;
+    max-width: 15ch;
+    line-height: 1.1;
+  }
+
+  .stay-productive__content p {
+    font-size: 1.125rem;
+  }
+
+  .stay-productive__content a {
+    font-size: 1.125rem;
+  }
 }
