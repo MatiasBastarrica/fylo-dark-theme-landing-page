@@ -227,3 +227,61 @@ nav a {
   background-size: cover;
   background-position: center;
 }
+
+/* ### TESTIMONIALS ### */
+
+.testimonials-section {
+  padding: 2rem 2.6rem;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.testimonials-container::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: -24px;
+  left: 10px;
+  width: 38px;
+  height: 28px;
+  background-image: url(./images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+
+.testimonial {
+  background-color: var(--navy-800);
+  padding: 2rem 1.5rem 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  border-radius: 0.4rem;
+  z-index: 3;
+}
+
+.testimonial-info {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.testimonial__img {
+  flex-basis: 30px;
+  border-radius: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.testimonial__name {
+  font-size: 0.825rem;
+}
+
+.testimonial__role {
+  font-size: 0.785rem;
+}
