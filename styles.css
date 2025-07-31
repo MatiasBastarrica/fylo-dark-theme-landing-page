@@ -544,6 +544,20 @@ footer a:hover {
     margin-inline: auto;
   }
 
+  .cta form {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .cta input {
+    width: 70%;
+  }
+
+  .cta button {
+    width: 25%;
+  }
+
   /* ## FOOTER ## */
 
   footer {
