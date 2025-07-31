@@ -559,26 +559,6 @@ footer a:hover {
     margin-inline: auto;
   }
 
-  .cta form {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1rem;
-    justify-content: space-between;
-  }
-
-  .cta .input-container {
-    width: 70%;
-  }
-
-  .cta input[type="email"]::placeholder {
-    font-size: 1rem;
-  }
-
-  .cta button {
-    width: 25%;
-    min-width: fit-content;
-  }
-
   /* ## FOOTER ## */
 
   footer {
@@ -630,6 +610,28 @@ footer a:hover {
 }
 
 @media (min-width: 66.875em) {
+  /* ## CTA ## */
+
+  .cta form {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .cta .input-container {
+    width: 70%;
+  }
+
+  .cta input[type="email"]::placeholder {
+    font-size: 1rem;
+  }
+
+  .cta button {
+    width: 25%;
+    min-width: fit-content;
+  }
+
   /* ## TESTIMONIALS ## */
 
   .testimonials-container {
