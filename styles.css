@@ -82,6 +82,15 @@ a {
   font-family: var(--ff-raleway);
 }
 
+.error-message {
+  color: var(--red-500);
+  font-weight: var(--fw-700);
+  font-size: 0.75rem;
+  padding-inline-start: 3rem;
+  margin-top: 0.4rem;
+  text-align: start;
+}
+
 /* ### GENERAL STYLING ### */
 
 body {
@@ -321,6 +330,7 @@ nav a {
 .cta form input {
   border-radius: 200px;
   padding: 0.8em 2em;
+  width: 100%;
 }
 
 .cta form input::placeholder {
@@ -546,16 +556,18 @@ footer a:hover {
 
   .cta form {
     flex-direction: row;
+    align-items: flex-start;
     gap: 1rem;
     justify-content: space-between;
   }
 
-  .cta input {
+  .cta .input-container {
     width: 70%;
   }
 
   .cta button {
     width: 25%;
+    min-width: fit-content;
   }
 
   /* ## FOOTER ## */
