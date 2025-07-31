@@ -468,4 +468,20 @@ footer address {
   .stay-productive__content a {
     font-size: 1.125rem;
   }
+
+  /* ## TESTIMONIALS ## */
+
+  .testimonials-container {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 80%;
+    margin-inline: auto;
+  }
+
+  .testimonials-container::before {
+    width: 45px;
+    height: 35px;
+    left: -6px;
+    top: -28px;
+  }
 }
