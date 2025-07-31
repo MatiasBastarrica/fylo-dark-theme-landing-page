@@ -285,3 +285,40 @@ nav a {
 .testimonial__role {
   font-size: 0.785rem;
 }
+
+/* ### CALL TO ACTION SECTION ### */
+
+.cta {
+  background-color: var(--navy-850);
+  padding: 2.5rem 2rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-inline: 1.5rem;
+}
+
+.cta h2 {
+  font-size: 1.245rem;
+}
+
+.cta form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.cta form input {
+  border-radius: 200px;
+  padding: 0.8em 2em;
+}
+
+.cta form input::placeholder {
+  font-size: 0.8rem;
+  color: rgb(167, 167, 167);
+}
+
+.cta form button {
+  border: none;
+}
